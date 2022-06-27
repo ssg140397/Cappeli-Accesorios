@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/1x/Artboard 1.png" type="image /x icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Cappelli.shop</title>
 </head>
@@ -15,7 +16,8 @@
             <a href="./registrate.html"><img src="./assets/img/icono2.png" alt=""></a>
             <img src="./assets/img/icono3.png" alt="">
         </div>
-        <div class="logotipo">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" class="logotipo">
             <img src="./assets/img/logotipo cabecera.png" alt="">
         </div>
         <div>
@@ -106,5 +108,9 @@
         </ul>
         <h5>©2022 N63 creative corner, todos los derechos reservados</h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
