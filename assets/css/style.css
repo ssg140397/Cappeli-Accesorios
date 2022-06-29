@@ -8,7 +8,7 @@
 
 }
 
-
+/*
 .container{
     display: grid;
     grid-template-columns: 395px 385px 350px 385px;
@@ -34,7 +34,7 @@
 .pie{
     grid-area: footer;
 }
-
+*/
 .logotipo{
     text-align: center;
     margin: 15px;
@@ -225,6 +225,29 @@ footer h5{
     font-size: 18px;
 }
 
+@media(max-width:756px){
+    .pie{
+        height: 250px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .pie h5{
+        order: 2;
+        width: 220px;
+    }
+
+    .logoAbajo img{
+        display: none;
+    }
+    .pie ul{
+        width: 50px;
+        order: 3;
+    }
+}
+
 .logoAbajo{
     display: flex;
     width: 300px;
@@ -355,7 +378,7 @@ footer h5{
     margin: 30px;
     order: 1;
 }
-
+/*
 .container2{
     display: grid;
     grid-template-columns: 430px 280px 280px 280px 290px;
@@ -365,9 +388,8 @@ footer h5{
                          "aside  aside  aside  aside  aside"
                          "footer footer footer footer footer";
 }
-
+*/
 .productos{
-    grid-area: main;
     display: grid;
     margin: 10px 20px 50px ;
     padding: 10px;
@@ -375,6 +397,7 @@ footer h5{
     gap: 4rem;
     text-align: center;
 }
+/*
 .secundario2{
     grid-area: aside;
 }
@@ -385,7 +408,7 @@ footer h5{
 .pie2{
     grid-area: footer;
 }
-
+*/
 .productos img{
     text-align: center;
     width: 300px;
@@ -543,6 +566,7 @@ max-width: 100%;
     padding: 10px;
     width: 400px;
 }
+/*
 .container3{
     display: grid;
     grid-template-columns: 420px 280px 280px 280px 280px;
@@ -566,7 +590,7 @@ max-width: 100%;
     grid-area: footer;
     width: 1550px;
 }
-
+/*
 .container4{
     display: grid;
     grid-template-columns: 400px 300px 300px 280px 260px;
@@ -617,7 +641,7 @@ max-width: 100%;
 .pie5{
     grid-area: footer;
 }
-
+/*
 .container6{
     display: grid;
     grid-template-columns: 395px 385px 350px 385px;
@@ -637,6 +661,7 @@ max-width: 100%;
 .formulario{
     grid-area: main;
 }
+*/
 .logotipoForm{
     text-align: center;
     justify-content: center;
@@ -658,7 +683,7 @@ max-width: 100%;
 }
 
 
-
+/*
 
 @media(max-width:576px){
 
@@ -1342,7 +1367,7 @@ max-width: 100%;
         order: 1;
     }
 }
-
+/*
 @media(max-width: 576px){
     .container6{
         display: grid;
@@ -1444,3 +1469,4 @@ max-width: 100%;
 
     }
 }
+*/
