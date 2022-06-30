@@ -227,29 +227,6 @@ footer h5{
     font-size: 18px;
 }
 
-@media(max-width:756px){
-    .pie{
-        height: 250px;
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-    .pie h5{
-        order: 2;
-        width: 220px;
-    }
-
-    .logoAbajo img{
-        display: none;
-    }
-    .pie ul{
-        width: 50px;
-        order: 3;
-    }
-}
-
 .logoAbajo{
     display: flex;
     width: 300px;
@@ -533,6 +510,46 @@ max-width: 100%;
     text-align:end;
     margin: 20px;
     padding: 20px;
+}
+
+@media(max-width:576px){
+
+
+    .newArrivalText h2{
+        display: none;
+        font-size: 30px;
+        padding: 2px;
+        margin: 5px;
+    }
+    .newArrivalText p{
+        display: none;
+        height: 30px;
+        width: 500px;
+        text-align: justify;
+        font-size: 26px;
+    }
+    .video{
+        text-align:end;
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .newArrivalText h2{
+        display: none;
+    }
+    .newArrivalText p{
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .newArrivalText h2{
+        display: none;
+    }
+    .newArrivalText p{
+        display: none;
+    }
 }
 .portadaNewIn{
     display: flex;
