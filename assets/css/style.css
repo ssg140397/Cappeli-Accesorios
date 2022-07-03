@@ -144,6 +144,10 @@
     font-weight: bold;
 
 }
+.cajasColecciones{
+    margin: 10px;
+    padding: 5px;
+}
 .tarjetasColecciones{
     display: flex;
     flex-wrap: wrap;
