@@ -124,7 +124,14 @@
     max-width: 100%;
     margin: auto;
     text-align: center;
+    opacity: 1;
+    transition: opacity 0.25s;
 }
+
+.newIn img:hover{
+    opacity: 0.75;
+}
+
 .cajas{
     text-align: center;
     align-content: center;
@@ -149,6 +156,10 @@
     align-items: center;
     border-radius: 10px;
     padding: 10px;
+    transition: transform 1s;
+}
+.tarjeta1:hover{
+    transform: scale(1.2);
 }
 .tarjeta1 img{
     width: 350px;
@@ -181,8 +192,13 @@
     padding: 5px;
     margin: auto;
     text-align: center;
-
+    opacity: 1;
+    transition: opacity 0.25s;
 }
+.giftboxes img:hover{
+    opacity: 0.70;
+}
+
 .outlet{
     display: flex;
     text-align: center; 
