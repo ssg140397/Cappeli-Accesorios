@@ -434,6 +434,15 @@ max-width: 100%;
     color: #ffff;
     border-radius: 15px;
 }
+
+.producto1{
+    transition: transform 1s;
+}
+
+.producto1:hover{
+    transform: scale(1.2);
+}
+
 .tituloOutlet{
     text-align: center;
     padding: 10px;
@@ -449,6 +458,12 @@ max-width: 100%;
     
 
 }
+
+.tituloOutlet h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .outletVer img{
     margin: 20px;
     padding: 5px;
