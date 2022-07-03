@@ -440,12 +440,12 @@ max-width: 100%;
     color: #ffff;
     border-radius: 15px;
 }
-.tituloOutlet{
+.tituloOutlet h3{
     text-align: center;
     padding: 10px;
-    margin: 5px;
-    font-size: 40px;
-    font-weight: bolder;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
 }
 .outletVer{
     display: flex;
@@ -519,6 +519,7 @@ max-width: 100%;
     font-size: 30px;
     padding: 2px;
     margin: 5px;
+    font-weight: 700;
 }
 .newArrivalText p{
     height: 30px;
@@ -586,10 +587,11 @@ max-width: 100%;
     text-align: center;
     padding: 10px;
     margin: 15px;
+    font-weight: 700;
+    font-size: 30px;
 }
 .textoCuello{
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
     font-size: 30px;
     padding: 2px;
