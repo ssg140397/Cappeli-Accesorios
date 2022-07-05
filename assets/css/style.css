@@ -462,6 +462,23 @@ max-width: 100%;
     font-weight: 550;
     font-size: 26px;
 }
+
+.tituloOutlet h3{
+    font-weight: 700;
+}
+.textoCuello{
+    text-align: center;
+    justify-content: center;
+}
+.textoCuello h3{
+    font-weight: 700;
+    text-align: center;
+}
+
+.newArrivalText h2{
+    font-weight: 700;
+}
+
 .outletVer button{
     text-align: center;
     width: 100px;
