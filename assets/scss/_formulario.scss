@@ -1,0 +1,51 @@
+.formulario{
+    display: flex;
+    margin: 8px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    legend{
+        font-size: 30px;
+        font-weight: 800;
+        padding: 6px;
+        margin: 8px;
+    }
+    img{
+        width: 750px;
+        padding: 20px;
+        margin: 8px;
+        }
+        .textoRegistro{
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+        }
+        .infoUsuario{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .inputBox{
+            padding: 2px;
+            margin: 10px;
+            
+        }
+        .btn{
+            display: flex;
+            justify-content: space-around;
+            background-color: $ColorSecundario;
+            margin: 10px;
+            padding: 5px;
+            input{
+                height: 30px;
+                width: 100px;
+                border: 0px;
+                border-radius: 10px;
+                background-color: $ColorPrimario;
+                color: $ColorSecundario;
+            }
+            
+        }
+}

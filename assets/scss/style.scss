@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat";
+    box-sizing: border-box; 
+
+}
+
+$ColorPrimario:#BFC18E;
+$ColorSecundario:#ffff;
+
+@import "barraNav";
+@import "secundarios";
+@import "logotipoIconosIconosForm";
+@import "principales";
+@import "footer";
+@import "formulario";
+@import "productos";
+@import "portadasMediaQueries"
+
+
+
