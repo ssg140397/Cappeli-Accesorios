@@ -1,18 +1,25 @@
+$estilos:(
+    color: #0000,
+    centro: center,
+    padding: 30px 40px,
+    fuente: 15px
+);
+
 .barraNavegación{
     ul{
         list-style: none;
         padding: 0px;
         margin: 0%;
-        text-align: center;
+        text-align: map-get($estilos,color);
         li{
             display: inline-block;
-            padding: 30px 40px;
-            color: black;
-            font-size: 15px;
+            padding: map-get($estilos,30px 40px);
+            color: map-get($estilos, color );
+            font-size: map-get($estilos, fuente );
             text-align: center;
             a{
                 text-decoration: none;
-                color: #000000 ;
+                color: map-get($estilos , color) ;
                 font-weight: bold;
                 &:hover{
                     color: $ColorPrimario;
@@ -22,3 +29,4 @@
         }
     }
 }
+

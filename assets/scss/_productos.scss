@@ -26,6 +26,7 @@
         text-align: justify;
     }
     button{
+        @extend .btn;
         margin: 10px;
         padding: 5px;
         width: 100px;
@@ -33,7 +34,7 @@
         border: none;
         background-color: $ColorPrimario;
         color: $ColorSecundario;
-        border-radius: 15px;
+        
     }
     .producto1{
         transition: transform 1s;

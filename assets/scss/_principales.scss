@@ -1,3 +1,9 @@
+@mixin propiedades ($margen,$padd, $ancho) {
+    margin: $margen;
+    padding: $padd;
+    width: $ancho;
+};
+
 .principal5{
     .bloque1{
         text-align: center;
@@ -10,9 +16,7 @@
             font-weight: bolder;
         }
         img{
-            width: 1450px;
-            padding: 10px;
-            margin:5px
+            @include propiedades (5px, 10px, 1450px);
         }
         p{
             font-size: 25px;
@@ -65,11 +69,11 @@
         padding: 2px;
         margin: 5px;
         h3{
+            @extend .newArrivalText;
             font-weight: 700;
             text-align: center;
             padding: 10px;
             margin: 15px;
-            font-weight: 700;
             font-size: 30px;
         }
     }
@@ -78,10 +82,8 @@
         flex-wrap: wrap;
         justify-content: center;
         img{
+            @include propiedades(20px, 10px , 400px );
             background-color: $ColorPrimario;
-            margin: 20px;
-            padding: 10px;
-            width: 400px;
         }
     }
 
